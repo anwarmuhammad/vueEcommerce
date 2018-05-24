@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vue Application</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://unpkg.com/vue@2.5.16/dist/vue.js"></script>
+</head>
+<body>
+	<div class="nav-bar"></div>
+
+<div id="app">
+  <div class="cart">
+    <p>Cart({{ cart.length }})</p>
+  </div>
+  <product :premium="premium" @add-to-cart="updateCart"></product>
+  <product :premium="premium" @add-to-cart="updateCart"></product>
+  <product :premium="premium" @add-to-cart="updateCart"></product>
+  <product :premium="premium" @add-to-cart="updateCart"></product>
+  <product :premium="premium" @add-to-cart="updateCart"></product>
+  <product :premium="premium" @add-to-cart="updateCart"></product>
+</div> 
+<script src="main.js"></script>
+</body>
+</html>
