@@ -49,7 +49,7 @@ Vue.component('product', {
           product: 'Riders World',
           brand: 'Vue Mastery',
           selectedVariant: 0,
-          details: ['80% cotton', '20% polyester', 'Gender-neutral'],
+          details: ['Electronic shifters', 'Internally geared hubs', 'Belt drives'],
           variants: [
             {
               variantId: 2234,
